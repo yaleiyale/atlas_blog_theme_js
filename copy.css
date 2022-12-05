@@ -15,8 +15,13 @@
     background-color: #777;
     min-width: 55px;
     text-align: center;
+    display: none;
 }
 
 .highlight-copy-btn:hover {
     background-color: #666;
+}
+
+.highlight:hover .highlight-copy-btn{
+    display: inline-block;
 }
